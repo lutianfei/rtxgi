@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+.venv/*
+.vscode/settings.json
+.vscode/*.log
+log.txt
+build/*
+dxc
+d3d
+samples/test-harness/data/gltf/*
+!samples/test-harness/data/gltf/cornell
+samples/test-harness/data/gltf/cornell/*.cache
+!samples/test-harness/data/gltf/furnace
+samples/test-harness/data/gltf/furnace/*.cache
+!samples/test-harness/data/gltf/multi-cornell
+samples/test-harness/data/gltf/multi-cornell/*.cache
+!samples/test-harness/data/gltf/sponza
+samples/test-harness/data/gltf/sponza/*.cache
+samples/test-harness/data/gltf/sponza/*.jpg
+samples/test-harness/data/gltf/sponza/*.png
+samples/test-harness/data/gltf/sponza/*.gltf
+samples/test-harness/data/gltf/sponza/*.bin
+samples/test-harness/data/gltf/sponza/Sponza.cache
+!samples/test-harness/data/gltf/tunnel
+samples/test-harness/data/gltf/tunnel/*.cache
+!samples/test-harness/data/gltf/two-rooms
+samples/test-harness/data/gltf/two-rooms/*.cache
